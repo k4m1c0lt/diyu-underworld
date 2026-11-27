@@ -173,9 +173,11 @@ diyu.exe --sim 200 --trace        # 打印逐帧状态
 - 提交前建议跑一遍 `diyu.exe --sim 20000`，内置机器人会把四关和 Boss 都走一遍。
 - 二进制 `diyu.exe` 仅用于方便试玩，请以源码编译为准。
 
-### 推送到 GitHub
+### 仓库地址 / 发布自己的 Fork
 
-仓库已在本地初始化（`main` 分支，首次提交就绪）。手动发布有两种方式：
+本仓库：<https://github.com/k4m1c0lt/diyu-underworld>（公开，MIT 协议）。
+
+Fork 之后想发布自己的版本，有两种方式：
 
 - 双击 `publish.bat`，输入 GitHub 用户名即可（检测到 `gh` 会自动建公开仓库并推送）。
 - 或者先在 GitHub 建好名为 `diyu-underworld` 的空仓库，再执行：
