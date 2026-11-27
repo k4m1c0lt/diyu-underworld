@@ -1,0 +1,23 @@
+# 编译中间产物
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+*.so
+*.dSYM/
+
+# 本地游戏进度（不入库，每人各自生成）
+difu_save.dat
+
+# 画面预览生成时的临时帧
+_raw.txt
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
